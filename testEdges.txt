@@ -1,0 +1,27 @@
+# A couple of example path and path lengths:
+# from 10th_century to 18th_century should have a path length of 2;
+# from 10th_century to 18th_century through 17th_century should have a path length of 3;
+# from 13th_century to 18th_century should have a path length of -1 since no path exists;
+# from 10th_century to 10th_century should have a path length of 0;
+
+10th_century	11th_century
+10th_century	12th_century
+11th_century	10th_century
+11th_century	12th_century
+11th_century	13th_century
+11th_century	14th_century
+11th_century	15th_century
+11th_century	16th_century
+11th_century	17th_century
+11th_century	18th_century
+11th_century	19th_century
+12th_century	10th_century
+12th_century	11th_century
+12th_century	13th_century
+12th_century	14th_century
+12th_century	15th_century
+12th_century	16th_century
+12th_century	17th_century
+12th_century	18th_century
+12th_century	19th_century
+17th_century	18th_century
